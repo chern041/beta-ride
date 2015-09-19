@@ -1,10 +1,25 @@
 body{
   color:#fff;
+  font-size:20px;
 }
 a{
   color: #666;
   font-weight: bold;
   text-decoration: none;
+}
+h1{
+  margin:0px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 110px;    
+}
+h2{
+  font-size:40px;
+}
+li{
+  list-style:none;
+  margin-bottom: 0.5em;
+
 }
 .black-button{
 	border: 1px solid #fff;

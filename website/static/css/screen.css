@@ -76,16 +76,36 @@
 /* line 1, ../sass/components/global/_elements.scss */
 body {
   color: #fff;
+  font-size: 20px;
 }
 
-/* line 4, ../sass/components/global/_elements.scss */
+/* line 5, ../sass/components/global/_elements.scss */
 a {
   color: #666;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 9, ../sass/components/global/_elements.scss */
+/* line 10, ../sass/components/global/_elements.scss */
+h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 110px;
+}
+
+/* line 16, ../sass/components/global/_elements.scss */
+h2 {
+  font-size: 40px;
+}
+
+/* line 19, ../sass/components/global/_elements.scss */
+li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
+/* line 24, ../sass/components/global/_elements.scss */
 .black-button {
   border: 1px solid #fff;
   background: #000;
@@ -99,36 +119,36 @@ a {
   margin: 0 auto;
   padding: .7em 40px;
 }
-/* line 21, ../sass/components/global/_elements.scss */
+/* line 36, ../sass/components/global/_elements.scss */
 .black-button.pre-order-now {
   padding: .7em 18px;
 }
-/* line 24, ../sass/components/global/_elements.scss */
+/* line 39, ../sass/components/global/_elements.scss */
 .black-button.buy-now {
   padding: .7em 62px;
 }
 
-/* line 28, ../sass/components/global/_elements.scss */
+/* line 43, ../sass/components/global/_elements.scss */
 .right {
   float: right;
 }
 
-/* line 29, ../sass/components/global/_elements.scss */
+/* line 44, ../sass/components/global/_elements.scss */
 .left {
   float: left;
 }
 
-/* line 30, ../sass/components/global/_elements.scss */
+/* line 45, ../sass/components/global/_elements.scss */
 .flex-reverse {
   flex-direction: row-reverse;
 }
 
-/* line 31, ../sass/components/global/_elements.scss */
+/* line 46, ../sass/components/global/_elements.scss */
 .highlighted {
   color: #bd0f52;
 }
 
-/* line 32, ../sass/components/global/_elements.scss */
+/* line 47, ../sass/components/global/_elements.scss */
 .down-arrow {
   border-top-color: #eeefef;
   content: "";
@@ -161,8 +181,15 @@ a {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  text-align: center;
 }
-/* line 8, ../sass/components/global/_home-page.scss */
+/* line 9, ../sass/components/global/_home-page.scss */
+.home-page .home-section-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25% 0 0 0;
+}
+/* line 14, ../sass/components/global/_home-page.scss */
 .home-page .home-bg {
   position: relative;
   top: -50%;
@@ -171,7 +198,7 @@ a {
   height: 200%;
   z-index: -10000;
 }
-/* line 16, ../sass/components/global/_home-page.scss */
+/* line 22, ../sass/components/global/_home-page.scss */
 .home-page .home-bg img {
   position: absolute;
   top: 0;
@@ -694,18 +721,23 @@ a {
   background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 1500px;
-}
-/* line 5, ../sass/components/content/_main-intro.scss */
-.main-intro h1 {
   text-align: center;
+}
+/* line 6, ../sass/components/content/_main-intro.scss */
+.main-intro h1 {
   text-transform: uppercase;
   color: #FFF;
+  font-size: 110px;
 }
-/* line 10, ../sass/components/content/_main-intro.scss */
+/* line 11, ../sass/components/content/_main-intro.scss */
+.main-intro h2 {
+  font-size: 40px;
+}
+/* line 14, ../sass/components/content/_main-intro.scss */
 .main-intro .main-intro-wrapper {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
-  padding: 30% 0 0 0;
+  padding: 25% 0 0 0;
 }
 
 /* line 1, ../sass/components/content/_install-module.scss */
