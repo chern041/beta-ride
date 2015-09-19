@@ -74,13 +74,18 @@
 }
 
 /* line 1, ../sass/components/global/_elements.scss */
+body {
+  color: #fff;
+}
+
+/* line 4, ../sass/components/global/_elements.scss */
 a {
   color: #666;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 6, ../sass/components/global/_elements.scss */
+/* line 9, ../sass/components/global/_elements.scss */
 .black-button {
   border: 1px solid #fff;
   background: #000;
@@ -94,36 +99,36 @@ a {
   margin: 0 auto;
   padding: .7em 40px;
 }
-/* line 18, ../sass/components/global/_elements.scss */
+/* line 21, ../sass/components/global/_elements.scss */
 .black-button.pre-order-now {
   padding: .7em 18px;
 }
-/* line 21, ../sass/components/global/_elements.scss */
+/* line 24, ../sass/components/global/_elements.scss */
 .black-button.buy-now {
   padding: .7em 62px;
 }
 
-/* line 25, ../sass/components/global/_elements.scss */
+/* line 28, ../sass/components/global/_elements.scss */
 .right {
   float: right;
 }
 
-/* line 26, ../sass/components/global/_elements.scss */
+/* line 29, ../sass/components/global/_elements.scss */
 .left {
   float: left;
 }
 
-/* line 27, ../sass/components/global/_elements.scss */
+/* line 30, ../sass/components/global/_elements.scss */
 .flex-reverse {
   flex-direction: row-reverse;
 }
 
-/* line 28, ../sass/components/global/_elements.scss */
+/* line 31, ../sass/components/global/_elements.scss */
 .highlighted {
   color: #bd0f52;
 }
 
-/* line 29, ../sass/components/global/_elements.scss */
+/* line 32, ../sass/components/global/_elements.scss */
 .down-arrow {
   border-top-color: #eeefef;
   content: "";
@@ -686,7 +691,7 @@ a {
 
 /* line 1, ../sass/components/content/_main-intro.scss */
 .main-intro {
-  background: url(../images/home-intro.jpg) 50% 0 fixed;
+  background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 1500px;
 }
@@ -705,21 +710,21 @@ a {
 
 /* line 1, ../sass/components/content/_install-module.scss */
 .install-module {
-  background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
+  background: url(../images/MexicoCity-56850637.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 401px;
 }
 
 /* line 1, ../sass/components/content/_steps-module.scss */
 .steps-module {
-  background: url(../images/home-intro.jpg) 50% 0 fixed;
+  background: url(../images/install-module-77301755.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 1500px;
 }
 
 /* line 1, ../sass/components/content/_how-works.scss */
 .how-works {
-  background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
+  background: url(../images/how-works-68806496.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 500px;
 }
