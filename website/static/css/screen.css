@@ -703,8 +703,22 @@ a {
   padding: 30% 0 0 0;
 }
 
-/* line 1, ../sass/components/content/_main-steps.scss */
-.main-steps {
+/* line 1, ../sass/components/content/_install-module.scss */
+.install-module {
+  background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
+  background-size: 100%;
+  padding-bottom: 401px;
+}
+
+/* line 1, ../sass/components/content/_steps-module.scss */
+.steps-module {
+  background: url(../images/home-intro.jpg) 50% 0 fixed;
+  background-size: 100%;
+  padding-bottom: 1500px;
+}
+
+/* line 1, ../sass/components/content/_how-works.scss */
+.how-works {
   background: url(../images/home-intro-37441813.jpg) 50% 0 fixed;
   background-size: 100%;
   padding-bottom: 500px;
