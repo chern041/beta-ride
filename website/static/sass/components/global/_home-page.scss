@@ -5,6 +5,14 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		text-align: center;
+		color:$color-light;
+	}
+	.dark-frame{
+		@include dark-alpha-background();
+		width: 50%;
+	    margin: 0 auto;
+	    padding: 3%;
+	    border: solid 1px;
 	}
 	.home-section-wrapper{
     	width:50%;
