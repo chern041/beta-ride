@@ -62,14 +62,18 @@ li{
   margin: 19px 23px 0 0;
 }
 
-/*
+.downloads{
+  margin: 112px auto;
+}
+
 .downloads a {
-    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left top;
+    background: transparent url(../images/sprite-download.png) no-repeat left top;
+    padding: 16px 110px;
+    text-align: center;
 }
 .downloads a.google-play {
-    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -30px;
+  background: transparent url(../images/sprite-download.png) no-repeat left -59px;
 }
 .downloads a.windows-store {
-    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -60px;
+  background: transparent url(../images/sprite-download.png) no-repeat left -118px;
 }
-*/
