@@ -1,9 +1,6 @@
-$color-light: #fff;
-$color-gray: #332e35;
-
 body{
   color: $color-gray;
-  font-size:20px;
+  font-size:22px;
 }
 a{
   color: #666;
@@ -17,7 +14,7 @@ h1{
   font-size: 110px;    
 }
 h2{
-  font-size:40px;
+  font-size:70px;
 }
 ul{
   margin: 0;
@@ -64,3 +61,14 @@ li{
   margin: 19px 23px 0 0;
 }
 
+/*
+.downloads a {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left top;
+}
+.downloads a.google-play {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -30px;
+}
+.downloads a.windows-store {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -60px;
+}
+*/

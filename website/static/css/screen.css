@@ -72,22 +72,23 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
+  color: #fff;
 }
 
-/* line 4, ../sass/components/global/_elements.scss */
+/* line 1, ../sass/components/global/_elements.scss */
 body {
   color: #332e35;
-  font-size: 20px;
+  font-size: 22px;
 }
 
-/* line 8, ../sass/components/global/_elements.scss */
+/* line 5, ../sass/components/global/_elements.scss */
 a {
   color: #666;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 13, ../sass/components/global/_elements.scss */
+/* line 10, ../sass/components/global/_elements.scss */
 h1 {
   margin: 0px;
   text-transform: uppercase;
@@ -95,24 +96,24 @@ h1 {
   font-size: 110px;
 }
 
-/* line 19, ../sass/components/global/_elements.scss */
+/* line 16, ../sass/components/global/_elements.scss */
 h2 {
-  font-size: 40px;
+  font-size: 70px;
 }
 
-/* line 22, ../sass/components/global/_elements.scss */
+/* line 19, ../sass/components/global/_elements.scss */
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 26, ../sass/components/global/_elements.scss */
+/* line 23, ../sass/components/global/_elements.scss */
 li {
   list-style: none;
   margin-bottom: 0.5em;
 }
 
-/* line 31, ../sass/components/global/_elements.scss */
+/* line 28, ../sass/components/global/_elements.scss */
 .black-button {
   border: 1px solid #fff;
   background: #000;
@@ -126,36 +127,36 @@ li {
   margin: 0 auto;
   padding: .7em 40px;
 }
-/* line 43, ../sass/components/global/_elements.scss */
+/* line 40, ../sass/components/global/_elements.scss */
 .black-button.pre-order-now {
   padding: .7em 18px;
 }
-/* line 46, ../sass/components/global/_elements.scss */
+/* line 43, ../sass/components/global/_elements.scss */
 .black-button.buy-now {
   padding: .7em 62px;
 }
 
-/* line 50, ../sass/components/global/_elements.scss */
+/* line 47, ../sass/components/global/_elements.scss */
 .right {
   float: right;
 }
 
-/* line 51, ../sass/components/global/_elements.scss */
+/* line 48, ../sass/components/global/_elements.scss */
 .left {
   float: left;
 }
 
-/* line 52, ../sass/components/global/_elements.scss */
+/* line 49, ../sass/components/global/_elements.scss */
 .flex-reverse {
   flex-direction: row-reverse;
 }
 
-/* line 53, ../sass/components/global/_elements.scss */
+/* line 50, ../sass/components/global/_elements.scss */
 .highlighted {
   color: #bd0f52;
 }
 
-/* line 54, ../sass/components/global/_elements.scss */
+/* line 51, ../sass/components/global/_elements.scss */
 .down-arrow {
   border-top-color: #eeefef;
   content: "";
@@ -169,6 +170,17 @@ li {
   margin: 19px 23px 0 0;
 }
 
+/*
+.downloads a {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left top;
+}
+.downloads a.google-play {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -30px;
+}
+.downloads a.windows-store {
+    background: transparent url(../images/sprite-2@2x-8.png) no-repeat left -60px;
+}
+*/
 /* line 1, ../sass/components/global/_parallax.scss */
 .parallax {
   margin: 0 auto;
@@ -201,16 +213,15 @@ li {
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
-  width: 50%;
   margin: 0 auto;
   padding: 3%;
   border: solid 1px;
 }
 /* line 17, ../sass/components/global/_home-page.scss */
 .home-page .home-section-wrapper {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
-  padding: 25% 0 0 0;
+  padding: 20% 0 0 0;
 }
 /* line 22, ../sass/components/global/_home-page.scss */
 .home-page .home-bg {
@@ -749,14 +760,8 @@ li {
 /* line 6, ../sass/components/content/_main-intro.scss */
 .main-intro h1 {
   text-transform: uppercase;
-  color: #FFF;
-  font-size: 110px;
 }
-/* line 11, ../sass/components/content/_main-intro.scss */
-.main-intro h2 {
-  font-size: 40px;
-}
-/* line 14, ../sass/components/content/_main-intro.scss */
+/* line 9, ../sass/components/content/_main-intro.scss */
 .main-intro .main-intro-wrapper {
   width: 50%;
   margin: 0 auto;
