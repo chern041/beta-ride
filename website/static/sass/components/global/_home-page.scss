@@ -1,15 +1,17 @@
 .home-page{
 	.home-section{  
-		padding-bottom: 1500px;	
 		background-position: 50% 0;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		text-align: center;
 		color:$color-light;
+		font-size:1.5vw;
+		padding-bottom: 300px;
+		background-size:100% 100%;
+
 	}
 	.dark-frame{
 		@include dark-alpha-background();
-		//width: 50%;
 	    margin: 0 auto;
 	    padding: 3%;
 	    border: solid 1px;
@@ -38,5 +40,16 @@
 	  margin: auto; 
 	  min-width: 50%;
 	  min-height: 50%;
+	}
+}
+
+@media(max-width:980px){
+	.home-page{
+		.home-section{  
+			background-attachment: scroll;
+			background-size:auto 100%;
+			font-size:6vw;
+		}
+		
 	}
 }

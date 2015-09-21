@@ -11,3 +11,13 @@ $color-gray: #332e35;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#33000000',GradientType=0 );
 
 }
+
+
+@mixin vertical-align($intro-vertical-align) {
+	$negative-align : unquote('-'+ $intro-vertical-align);
+  	position: relative;
+  	top: $intro-vertical-align;
+  	-webkit-transform: translateY($negative-align);
+  	-ms-transform: translateY($negative-align);
+  	transform: translateY($negative-align);
+}

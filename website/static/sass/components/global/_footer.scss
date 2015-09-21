@@ -7,4 +7,48 @@
 	width: 100%;
 	z-index:1000;
 	color:$color-light;
+	clear:both;
+	.downloads{
+		float:left;
+		margin: 20px 0 0;
+		padding: 8px 0;
+		a{
+			background-size: 115px;
+			padding: 9px 70px;
+			&.google-play{
+				background-size: 115px;
+			}
+			&.windows-store{
+				background-size: 115px;
+			}
+		}
+		.google-play{
+			background-position:left -35px;
+		}
+		.windows-store{
+			background-position:left -70px;
+		}
+	}
+	.social-icons{
+		width: 225px;
+		margin: 0 auto;
+		float:right;
+		a{
+			width: 65px;
+			height: 61px;
+			display:inline-block;
+		}
+		li{
+			display:inline-block;
+		}
+		.facebook{
+			background: url("../images/nav_fa_white.svg") no-repeat scroll 0 0 transparent;
+		}
+		.linkedin{
+			background: url("../images/nav_in_white.svg") no-repeat scroll 0 0 transparent;
+		}
+		.twitter{
+			background: url("../images/nav_tw_white.svg") no-repeat scroll 0 0 transparent;
+		}
+	}
 }
