@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -33,17 +34,38 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+       // app.receivedEvent('deviceready');
+       navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError);
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+    onSuccess: function(position){
+        var longitude = position.coords.longitude;
+        var latitude = position.coords.latitude;
+        var latLong = new google.maps.LatLng(latitude, longitude);
 
-        console.log('Received Event: ' + id);
-    }
+        var mapOptions = {
+            center: latLong,
+            zoom: 13,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var locationmarker = {
+            url: 'img/blue_dot.png',
+            anchor: new google.maps.Point(16, 0)
+        }
+        var marker = new google.maps.Marker({
+              position: latLong,
+              map: map,
+              title: 'my location',
+              icon: locationmarker
+          });
+    },
+    
+    onError: function(error){
+        alert("the code is " + error.code + ". \n" + "message: " + error.message);
+    },
 };
+
+app.initialize();
