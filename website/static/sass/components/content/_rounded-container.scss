@@ -1,0 +1,19 @@
+.rounded-container{
+    display:inline-flex;
+    list-style:none;
+    .circles {
+        float: left;
+        margin: 0 15px 0 0;
+        width:140px;
+        height: 35px;
+        background: #000;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        font-size: 1vw;
+        text-align: center;
+        padding: 63px 0 42px;
+        line-height: 1em;
+        border: solid 1px;
+    }
+}
