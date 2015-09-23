@@ -32,8 +32,34 @@
     <body>
         <h1 class="welcome">BIENVENIDO</h1>
         <div id="map"></div>
+        <section class="destination" id="destinationForm">
+            <header>
+                <h2>destino</h2>
+                <span class="close-button" id="closeBtn">X</span>
+            </header>
+            <form class="form-departure">
+                <table class="table-departure">
+                    <tr>
+                        <select type="select" class="select-departure">
+                            <option value="">seleccione su destino</option>
+                            <option value="">Condesa</option>
+                            <option value="">Cuernavaca</option>
+                        </select>
+                    </tr>
+                    <tr>
+                        <input type="time" name="departureTime"/>
+                    </tr>
+                    <tr>
+                         <input class="seleccione-asiento" value="Seleccione asiento" type="button">
+                    </tr>
+                </table>
+               
+            </form>
+        </section>
+        <a class="button" href="#" id="requestTripBtn">SOLICITA UN VIAJE</a>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/DatePicker.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtTcw1C9SfDbgy2aKfOt_5N8m2Ltpqdu8"> </script>
     </body>
 </html>

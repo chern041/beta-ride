@@ -28,13 +28,14 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener('deviceready', this.clickEvent, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-       // app.receivedEvent('deviceready');
+       //this.testEvent();
        navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError);
     },
 
@@ -60,7 +61,27 @@ var app = {
               map: map,
               title: 'my location',
               icon: locationmarker
-          });
+        });
+
+
+    },
+
+    clickEvent: function(){
+        var requestTripBtn = document.getElementById("requestTripBtn");
+        var destinationForm = document.getElementById("destinationForm");
+        var closeBtn = document.getElementById("closeBtn");
+        destinationForm.style.display = 'none';
+        requestTripBtn.addEventListener("click", function(){
+            app.toggle(destinationForm);
+        });
+        closeBtn.addEventListener("click", function(){
+            app.toggle(destinationForm);
+        });
+    },
+
+    toggle: function(obj) {
+        var el = obj;
+        el.style.display = (el.style.display != 'none' ? 'none' : '' );
     },
     
     onError: function(error){
