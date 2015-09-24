@@ -8,7 +8,6 @@
 		font-size:1.5vw;
 		padding-bottom: 300px;
 		background-size:100% 100%;
-
 	}
 	.dark-frame{
 		@include dark-alpha-background();
@@ -50,6 +49,5 @@
 			background-size:auto 100%;
 			font-size:6vw;
 		}
-		
 	}
 }

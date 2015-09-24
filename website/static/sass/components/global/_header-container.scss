@@ -4,5 +4,11 @@
 	position: fixed;
 	width: 100%;
 	z-index:1000;
+	padding: 0 3%;
 	color:$color-light;
+	.world-icon{
+		font-family: 'icon-worksregular';
+		margin: 0 10px 0 0;
+		font-size: 1.5vw;
+	}
 }
