@@ -6,23 +6,17 @@
 	z-index:1000;
 	padding: 0 3%;
 	color:$color-light;
-<<<<<<< Updated upstream
 	.world-icon{
 		background: url("../images/bus-icon-white.svg") no-repeat scroll 0 0 transparent;
 		padding: 12px 28px;
 	}
-=======
 	.black-button{
 	padding:30px;
 	float:right;
 }
 
 @media(min-width:980px){
-.black-button{
-	display:none;
-}	
-}
-
-
->>>>>>> Stashed changes
+	.black-button{
+		display:none;
+	}	
 }
