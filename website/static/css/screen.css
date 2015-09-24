@@ -52,6 +52,18 @@
   padding: 12px 28px;
 }
 
+/* line 14, ../sass/components/global/_header-container.scss */
+.black-button {
+  padding: 30px;
+  float: right;
+}
+
+@media (min-width: 980px) {
+  /* line 20, ../sass/components/global/_header-container.scss */
+  .black-button {
+    display: none;
+  }
+}
 /* line 1, ../sass/components/global/_footer.scss */
 .global-footer {
   background: #000;
@@ -117,6 +129,16 @@
 /* line 50, ../sass/components/global/_footer.scss */
 .global-footer .social-icons .twitter {
   background: url("../images/nav_tw_white.svg") no-repeat scroll 0 0 transparent;
+}
+@media (max-width: 980px) {
+  /* line 55, ../sass/components/global/_footer.scss */
+  .global-footer .downloads {
+    display: none;
+  }
+  /* line 58, ../sass/components/global/_footer.scss */
+  .global-footer .social-icons {
+    float: none;
+  }
 }
 
 /* line 1, ../sass/components/global/_elements.scss */
@@ -251,9 +273,16 @@ li {
 
   /* line 88, ../sass/components/global/_elements.scss */
   .downloads a {
-    padding: 0 110px;
+    display: none;
   }
 }
+@media (max-width: 980px) and (min-width: 980px) {
+  /* line 91, ../sass/components/global/_elements.scss */
+  .downloads a .black-button {
+    display: center;
+  }
+}
+
 /* line 1, ../sass/components/global/_parallax.scss */
 .parallax {
   margin: 0 auto;
