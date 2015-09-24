@@ -48,9 +48,8 @@
 }
 /* line 9, ../sass/components/global/_header-container.scss */
 .header-container .world-icon {
-  font-family: 'icon-worksregular';
-  margin: 0 10px 0 0;
-  font-size: 1.5vw;
+  background: url("../images/bus-icon-white.svg") no-repeat scroll 0 0 transparent;
+  padding: 12px 28px;
 }
 
 /* line 1, ../sass/components/global/_footer.scss */

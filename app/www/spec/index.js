@@ -41,6 +41,7 @@ describe('app', function() {
             app.onDeviceReady();
             expect(app.receivedEvent).toHaveBeenCalledWith('deviceready');
         });
+       
     });
 
     describe('receivedEvent', function() {
