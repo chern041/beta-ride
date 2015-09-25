@@ -27,46 +27,16 @@ li{
   margin-bottom: 0.5em;
 
 }
-.black-button{
-	border: 1px solid #fff;
-  background: #000;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: 'Arial';
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  margin: 0 auto;
-  padding: .7em 40px;
-  &.pre-order-now{
-    padding: .7em 18px;
-  }
-  &.buy-now{
-    padding: .7em 62px;
-  }
-}
+
 .right{float:right;}
 .left{float:left;}
 .flex-reverse{flex-direction: row-reverse;}
 .highlighted{color:#bd0f52;}
-.down-arrow{
-  border-top-color: #eeefef;
-  content: "";
-  z-index: 1000;
-  border-top: 15px solid #eeefef;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  position: absolute;
-  display: block;
-  right: 0;
-  margin: 19px 23px 0 0;
-}
 
+//============== ADD THIS WITH THE SASS FORMAT THIS IS REGULAR CSS ========================
 .downloads{
   margin: 112px auto;
 }
-
 .downloads a {
     background: transparent url(../images/sprite-download.png) no-repeat left top;
     padding: 16px 110px;
@@ -78,20 +48,9 @@ li{
 .downloads a.windows-store {
   background: transparent url(../images/sprite-download.png) no-repeat left -118px;
 }
-
-
+//==================================================== END COMMENT ========================
 
 @media(max-width:980px){
-
   h1{font-size:14vw;}
   h2{font-size:9vw;}
-  .downloads a {
-    display:none;
-@media(min-width:980px){
-    .black-button{
-      display:center;
-    }
-    //padding: 0 110px;
-}
-}
 }
