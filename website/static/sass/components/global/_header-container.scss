@@ -1,15 +1,24 @@
 .header-container{
-	background:#000;
-	border-bottom: solid 1px #fff;
-	position: fixed;
-	width: 100%;
-	z-index:1000;
-	padding: 0 3%;
-	color:$color-light;
-	.world-icon{
-		background: url("../images/bus-icon-white.svg") no-repeat scroll 0 0 transparent;
-		padding: 12px 28px;
+	.wrapper{
+		background:#000;
+		border-bottom: solid 1px #fff;
+		position: fixed;
+		width: 100%;
+		z-index:1000;
+		padding: 0 3%;
+		color:$color-light;
+		float:left;
+			.world-icon{
+				background: url("../images/bus-icon-white.svg") no-repeat scroll 0 0 transparent;
+				padding: 12px 28px;
+				.title{
+					float:left;
+				}
+			}
 	}
 }
-
-
+@media(min-width:980px){
+	.download-button{
+		display:none;
+	}		
+}

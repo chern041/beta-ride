@@ -51,10 +51,12 @@
 			background: url("../images/nav_tw_white.svg") no-repeat scroll 0 0 transparent;
 		}
 	}
-	
 }
 
 @media(max-width:980px){
+	.downloads{
+		display:none;
+	}
 	.global-footer{
 		.social-icons{
 			float:none;
