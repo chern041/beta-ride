@@ -1,4 +1,4 @@
-.global-footer{
+.footer{
 	//@include dark-alpha-background();
 	background:#000;
 	border-top: solid 1px #fff;
@@ -52,15 +52,14 @@
 		}
 	}
 }
-
 @media(max-width:980px){
-	.downloads{
-		display:none;
-	}
-	.global-footer{
+	.footer{
+		position:static;
+		.downloads{
+			display:none;
+		}
 		.social-icons{
 			float:none;
-		}
-	}	
+		}	
+	}
 }	
-
