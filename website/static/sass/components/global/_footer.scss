@@ -52,17 +52,20 @@
 		}
 	}
 }
+
+
 @media(max-width:980px){
 	.footer{
 		position:static;
+		font-size:30px;
 		.downloads{
 			display:none;
 		}
 		.social-icons{
 			float:none;
+			a{
+				background-size: 200px;
+			}
 		}	
-	}
-	.wrapper{
-		font-size:30px;
 	}
 }	
